@@ -1,0 +1,117 @@
+/* Groovebox-inspired Color Scheme (with original class names) */
+
+/* Light Mode */
+.bg-blue-pink {
+  background: #FFD200; /* Primary bright yellow */
+  background: linear-gradient(
+    280deg,
+    rgba(255, 210, 0, 0.9) 0%,
+    rgba(255, 210, 0, 0.7) 50%,
+    rgba(255, 210, 0, 0.5) 100%
+  );
+}
+
+.bg-pink-blue {
+  background: #FF6B6B; /* Bright coral */
+  background: linear-gradient(
+    100deg,
+    rgba(255, 107, 107, 0.9) 0%,
+    rgba(255, 107, 107, 0.7) 50%,
+    rgba(255, 107, 107, 0.5) 100%
+  );
+}
+
+.bg-gray-purple {
+  background: #4ECDC4; /* Bright teal */
+  background: linear-gradient(
+    258deg,
+    rgba(78, 205, 196, 0.9) 0%,
+    rgba(78, 205, 196, 0.7) 50%,
+    rgba(78, 205, 196, 0.5) 100%
+  );
+}
+
+/* Dark Mode (Bright but not harsh) */
+.bg-blue-pink:is(.dark *) {
+  background: #FFD200; /* Primary bright yellow */
+  background: linear-gradient(
+    280deg,
+    rgba(255, 210, 0, 0.8) 0%,
+    rgba(255, 210, 0, 0.6) 50%,
+    rgba(255, 210, 0, 0.4) 100%
+  );
+}
+
+.bg-pink-blue:is(.dark *) {
+  background: #FF8C94; /* Softer bright pink */
+  background: linear-gradient(
+    100deg,
+    rgba(255, 140, 148, 0.8) 0%,
+    rgba(255, 140, 148, 0.6) 50%,
+    rgba(255, 140, 148, 0.4) 100%
+  );
+}
+
+.bg-gray-purple:is(.dark *) {
+  background: #45B7A0; /* Darker bright teal */
+  background: linear-gradient(
+    258deg,
+    rgba(69, 183, 160, 0.8) 0%,
+    rgba(69, 183, 160, 0.6) 50%,
+    rgba(69, 183, 160, 0.4) 100%
+  );
+}
+
+/* Animated Gradient */
+.bg-pink-blue-animated {
+  background: linear-gradient(90deg, rgba(255, 210, 0, 0.7), rgba(255, 107, 107, 0.7));
+  background-size: 200% 200%;
+  animation: bg-pink-blue-animated 8s ease infinite;
+}
+
+.bg-pink-blue-animated:is(.dark *) {
+  background: linear-gradient(90deg, rgba(255, 210, 0, 0.6), rgba(255, 140, 148, 0.6));
+  background-size: 200% 200%;
+  animation: bg-pink-blue-animated 8s ease infinite;
+}
+
+@keyframes bg-pink-blue-animated {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+.animation-delay-1 {
+  animation-delay: 300ms !important;
+}
+
+.animation-delay-2 {
+  animation-delay: 600ms !important;
+}
+
+/* Text Colors */
+
+.text-primary {
+  @apply text-primary-300;
+}
+
+.text-primary:is(.dark *) {
+  @apply text-primary-400;
+}
+
+.text-white:is(.dark *) {
+  @apply text-black;
+}
+
+svg.text-white:hover,
+a .text-white:hover {
+  @apply text-primary-300;
+}
+
+svg.text-white:hover:is(.dark *),
+a .text-white:hover:is(.dark *) {
+  @apply text-primary-400;
+}
+
+
+/* Font - Space Grotesk */
