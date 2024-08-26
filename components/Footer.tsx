@@ -7,7 +7,6 @@ import { useTranslation } from 'utils/locale'
 export default function Footer() {
   const { t } = useTranslation()
 
-
   return (
     <footer>
       <div className="mt-16 flex flex-col items-center">

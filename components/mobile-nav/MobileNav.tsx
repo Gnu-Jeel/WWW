@@ -3,7 +3,6 @@ import Link from '@/components/Link'
 import useHeaderNavLinks from '@/data/headerNavLinks'
 
 const MobileNav = ({ navShow, onToggleNav }) => {
-
   return (
     <div
       className={`fixed inset-0 top-0 z-50 h-screen w-screen bg-white opacity-95 transition-transform duration-300 ease-in-out
@@ -36,8 +35,8 @@ const MobileNav = ({ navShow, onToggleNav }) => {
             <Link
               href={link.href}
               className="text-2xl font-bold tracking-widest text-gray-900 dark:text-gray-100 "
-              onClick={onToggleNav} 
-              >
+              onClick={onToggleNav}
+            >
               {link.title}
             </Link>
           </div>

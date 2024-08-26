@@ -44,8 +44,7 @@ export default function ScrollTagsBox() {
   }
 
   return (
-    <section
-      className="card bg-gray-purple mt-5 space-y-2 overflow-hidden pb-1 font-orbitron" >
+    <section className="card bg-gray-purple mt-5 space-y-2 overflow-hidden pb-1 font-orbitron">
       {createParallaxTexts()}
     </section>
   )

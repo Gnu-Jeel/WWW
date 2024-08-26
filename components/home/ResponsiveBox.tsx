@@ -22,8 +22,7 @@ export default function ResponsiveBox() {
     <section className={`mt-3 flex justify-between ${getLayout(flex_col, flex_row, flex_row)}`}>
       <div
         className={`flex flex-grow justify-between ${getLayout(flex_col, flex_col, flex_row)} min-w-[75%]`}
-      >
-      </div>
+      ></div>
     </section>
   )
 }

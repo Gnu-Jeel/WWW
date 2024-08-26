@@ -9,7 +9,7 @@ const TypedBios = () => {
   const typed = React.useRef<Typed | null>(null)
   const { currentLang } = React.useContext(LanguageContext)
   const { t } = useTranslation('about-me')
-  
+
   React.useEffect(() => {
     typed.current = new Typed(el.current, {
       stringsElement: '#bios',
@@ -26,13 +26,13 @@ const TypedBios = () => {
       <span>👋 </span>
       <ul id="bios" className="hidden">
         <li key="1">
-        {t("I'm an")} <b className="text-primary-300">{t('typed.android')}</b>.
+          {t("I'm an")} <b className="text-primary-300">{t('typed.android')}</b>.
         </li>
         <li key="2">
           {t('typed.Iam-a')} <b className="text-primary-300">{t('typed.web')}</b>.
         </li>
         <li key="3">
-        {t('typed.Iam-a')} <b className="text-primary-300">{t('typed.tech')}</b>.
+          {t('typed.Iam-a')} <b className="text-primary-300">{t('typed.tech')}</b>.
         </li>
         <li key="4">
           {t('typed.Iam-a')} <b className="text-primary-300">{t('typed.blog')}</b>.

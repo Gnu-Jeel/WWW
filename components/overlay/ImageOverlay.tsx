@@ -95,8 +95,8 @@ const ImageViewOverlay: React.FC = () => {
       )}
 
       <span className="absolute bottom-1 -z-10 text-gray-200 opacity-70 ">
-        <h5 className="hidden md:block">{('img_overlay_hint')}</h5>
-        <h5 className="md:hidden">{('img_overlay_hint_mobile')}</h5>
+        <h5 className="hidden md:block">{'img_overlay_hint'}</h5>
+        <h5 className="md:hidden">{'img_overlay_hint_mobile'}</h5>
       </span>
     </div>
   )

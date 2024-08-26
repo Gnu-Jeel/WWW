@@ -12,7 +12,7 @@ const projectsData: Project[] = [
     It is my go-to place for sharing recent discoveries, experiences & tech tips, as well as sharing cool freebies.`,
     imgSrc: '/static/images/banner.png',
     href: 'https://github.com/Gnu-Jeel/www',
-  }
+  },
 ]
 
 export default projectsData

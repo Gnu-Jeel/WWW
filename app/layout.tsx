@@ -89,7 +89,7 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html 
+    <html
       lang={siteMetadata.language}
       className={`${grotesk.variable} ${zcool_kuaile.variable} ${orbitron.variable} scroll-smooth`}
       suppressHydrationWarning

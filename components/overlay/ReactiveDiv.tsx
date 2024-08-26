@@ -130,7 +130,7 @@ const ReactiveDiv: React.FC<ReactiveDivProps> = ({ isEnabled, className, childre
       setStartPos({ x: 0, y: 0 })
       setZoom(1)
     }
-  }, [children])
+  }, [children, isEnabled])
 
   return (
     <div

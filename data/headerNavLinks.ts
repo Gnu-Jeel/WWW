@@ -1,4 +1,5 @@
-export default function useHeaderNavLinks() { // Removed translate parameter
+export default function useHeaderNavLinks() {
+  // Removed translate parameter
   const headerNavLinks = [
     { href: '/', title: 'Home' }, // Replace with actual title or use a translation solution if needed
     { href: '/blog', title: 'Blog' },

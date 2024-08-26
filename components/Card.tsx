@@ -3,7 +3,6 @@ import Image from './Image'
 import Link from './Link'
 
 const Card = ({ title, description, imgSrc, href }) => {
-
   return (
     <div className="md max-w-[544px] p-4 transition-transform duration-500 hover:-translate-y-1 md:w-1/2">
       <div className={`${imgSrc && 'h-full'}  card overflow-hidden`}>
@@ -44,7 +43,7 @@ const Card = ({ title, description, imgSrc, href }) => {
               className="text-base font-medium leading-6 text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
               aria-label={`Link to ${title}`}
             >
-              {('Read more')} &rarr;
+              {'Read more'} &rarr;
             </Link>
           )}
         </div>

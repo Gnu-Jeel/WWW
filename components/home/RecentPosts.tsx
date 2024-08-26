@@ -4,7 +4,6 @@ import Tag from '@/components/Tag'
 import { sortPosts, allCoreContent } from 'pliny/utils/contentlayer'
 import { allBlogs } from 'contentlayer/generated'
 import { formatDate } from 'pliny/utils/formatDate'
-import { useContext } from 'react'
 
 const MAX_DISPLAY = 5
 
@@ -15,7 +14,7 @@ export default function RecentPosts() {
   return (
     <section className="card mt-10">
       <h2 className="p-10 pb-0 text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
-        {('Latest')}
+        {'Latest'}
       </h2>
       <ul className="divide-y divide-gray-200 p-10 pt-5 dark:divide-gray-700">
         {!posts.length && 'No posts found.'}
@@ -44,7 +43,7 @@ export default function RecentPosts() {
                             <Tag key={tag} text={tag} />
                           ))}
                         </div>
-                      </div>  
+                      </div>
                       <div className="prose max-w-none text-gray-500 dark:text-gray-400">
                         {summary}
                       </div>
@@ -55,7 +54,7 @@ export default function RecentPosts() {
                         className="text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
                         aria-label={`Read more: "${title}"`}
                       >
-                        {('Read more')} &rarr;
+                        {'Read more'} &rarr;
                       </Link>
                     </div>
                   </div>
@@ -73,7 +72,7 @@ export default function RecentPosts() {
             className="text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
             aria-label="All posts"
           >
-            {('All Posts')} &rarr;
+            {'All Posts'} &rarr;
           </Link>
         </div>
       )}
