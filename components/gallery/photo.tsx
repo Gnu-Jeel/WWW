@@ -40,7 +40,7 @@ const Photo = ({ useOverlay = true, index = 0, ...rest }: OverlayImageProps) => 
     if (callerId == rest.id) {
       setDisplayIndex(overlayIndex)
     }
-  }, [overlayIndex, callerId, rest.id])
+  }, [overlayIndex])
 
   return <NextImage src={rest.src} className="lightcone" {...rest} onClick={handleClick} />
 }
