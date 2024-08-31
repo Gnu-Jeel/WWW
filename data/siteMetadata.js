@@ -2,7 +2,7 @@
 const siteMetadata = {
   title: 'Jeel Desai',
   author: 'Jeel Desai',
-  headerTitle: 'Blog',
+  headerTitle: '',
   description: 'Here i am documenting my journey and sharing knowledge',
   language: 'en-us',
   theme: 'system', // system, dark or light

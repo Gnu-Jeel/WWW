@@ -35,7 +35,7 @@ module.exports = {
         fontaine: ['fontaine', ...fonts],
       },
       colors: {
-        primary: colors.orange,
+        primary: colors.cyan,
         gray: colors.gray,
       },
       typography: ({ theme }) => ({
