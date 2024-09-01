@@ -103,8 +103,8 @@ module.exports = {
         },
       }),
       boxShadow: {
-        azure: '0 0 2px 2px rgba(240, 255, 255, 0.7)',
-        purple: '0 0 2px 1px rgba(140, 140, 230,0.7)',
+        azure: '0 0 2px 2px rgba(157, 255, 255, 0.7)',
+        purple: '0 0 2px 1px rgba(157, 234, 250,0.7)',
       },
     },
   },

@@ -9,7 +9,7 @@ const minimalTheme: ThemeInput = {
 }
 
 const DAYS = 98
-const USERNAME = 'amoschenzixuan'
+const USERNAME = 'itsjeeldesai'
 
 function selectLastNDays(contributions: Array<Activity>): Array<Activity> {
   return contributions.slice(-DAYS)

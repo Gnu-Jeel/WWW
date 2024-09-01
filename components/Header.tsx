@@ -7,6 +7,7 @@ import Image from 'next/image'
 import Link from './Link'
 import MobileNav from './mobile-nav/MobileNav'
 import MobileNavToggle from './mobile-nav/MobileNavToggle'
+import SearchButton from '@/components/SearchButton'
 import ThemeSwitch from './ThemeSwitch'
 
 const Header = () => {
@@ -101,6 +102,7 @@ const Header = () => {
                   {link.title}
                 </Link>
               ))}
+              <SearchButton/>
             <ThemeSwitch />
             <MobileNavToggle onToggleNav={onToggleNav} />
           </div>

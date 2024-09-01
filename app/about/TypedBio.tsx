@@ -43,9 +43,6 @@ const TypedBios = () => {
         <li key="6">
           {t('typed.Iam-a')} <b className="text-primary-300">{t('typed.life')}</b>.
         </li>
-        <li key="7">
-          {t('typed.Iam-a')} <b className="text-primary-300">{t('typed.gamer')}</b>.
-        </li>
       </ul>
       <span ref={el} className="text-neutral-900 dark:text-neutral-200" />
     </div>

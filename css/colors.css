@@ -30,27 +30,27 @@
 .bg-blue-pink:is(.dark *) {
   background: linear-gradient(
     280deg,
-    rgba(144, 202, 249, 0.8) 0%,
-    rgba(100, 181, 246, 0.6) 50%,
-    rgba(66, 165, 245, 0.4) 100%
+    rgb(144, 216, 249) 0%,
+    rgba(100, 180, 246, 0.829) 50%,
+    rgba(66, 164, 245, 0.705) 100%
   );
 }
 
 .bg-pink-blue:is(.dark *) {
   background: linear-gradient(
     100deg,
-    rgba(179, 229, 252, 0.8) 0%,
-    rgba(129, 212, 250, 0.6) 50%,
-    rgba(79, 195, 247, 0.4) 100%
+    rgba(179, 229, 252, 0.856) 0%,
+    rgba(129, 212, 250, 0.829) 50%,
+    rgba(79, 194, 247, 0.651) 100%
   );
 }
 
 .bg-gray-purple:is(.dark *) {
   background: linear-gradient(
     258deg,
-    rgba(187, 222, 251, 0.8) 0%,
-    rgba(144, 202, 249, 0.6) 50%,
-    rgba(100, 181, 246, 0.4) 100%
+    rgba(154, 206, 248, 0.9) 0%,
+    rgba(115, 193, 245, 0.7) 50%,
+    rgba(85, 169, 247, 0.7) 100%
   );
 }
 
@@ -58,13 +58,13 @@
 .bg-pink-blue-animated {
   background: linear-gradient(90deg, rgba(30, 181, 252, 0.7), rgba(138, 244, 248, 0.7)), rgba(171, 214, 248, 0.7);
   background-size: 300% 300%;
-  animation: bg-pink-blue-animated 15s ease infinite;
+  animation: bg-pink-blue-animated 10s ease infinite;
 }
 
 .bg-pink-blue-animated:is(.dark *) {
-  background: linear-gradient(90deg,  rgba(25, 151, 209, 0.7), rgba(117, 208, 211, 0.7)), rgba(148, 185, 214, 0.7);
+  background: linear-gradient(90deg,  rgba(36, 156, 212, 0.8), rgba(131, 213, 216, 0.8)), rgba(154, 188, 212, 0.8);
   background-size: 300% 300%;
-  animation: bg-pink-blue-animated 15s ease infinite;
+  animation: bg-pink-blue-animated 10s ease infinite;
 }
 
 @keyframes bg-pink-blue-animated {
