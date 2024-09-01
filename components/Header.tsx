@@ -102,7 +102,7 @@ const Header = () => {
                   {link.title}
                 </Link>
               ))}
-              <SearchButton/>
+            <SearchButton />
             <ThemeSwitch />
             <MobileNavToggle onToggleNav={onToggleNav} />
           </div>

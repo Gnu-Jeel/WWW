@@ -16,7 +16,7 @@ export function Headline() {
       'राधे राधे',
       'ਸਤਿ ਸ਼੍ਰੀ ਅਕਾਲ',
       'নমস্কার',
-      'வணக்கம்'
+      'வணக்கம்',
     ]
 
     const options = {

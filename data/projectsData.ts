@@ -37,7 +37,6 @@ const projectsData: Project[] = [
     imgSrc: '/static/images/Network Connectivity Monitor.jpg',
     href: 'https://github.com/itsjeeldesai/Network-Connectivity-Monitor',
   },
-
 ]
 
 export default projectsData
