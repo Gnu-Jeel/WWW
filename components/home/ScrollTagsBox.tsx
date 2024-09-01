@@ -27,7 +27,7 @@ export default function ScrollTagsBox() {
               key={j}
               text={tag}
               className="mx-6 text-3xl text-white
-              hover:text-primary-300 dark:text-gray-900 dark:hover:text-primary-400 xl:text-7xl"
+              hover:text-primary-500 dark:text-gray-900 dark:hover:text-primary-400 xl:text-7xl"
             />
           ))}
         </ParallaxText>
