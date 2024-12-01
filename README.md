@@ -5,8 +5,6 @@
 
 ---
 
-![banner](public/static/images/banner.png)
-
 # Jeel Desai's Personal Blog
 
 This is a [Next.js](https://nextjs.org/), [Tailwind CSS](https://tailwindcss.com/) project which is based on Next App directory with [React Server Component](https://nextjs.org/docs/getting-started/react-essentials#server-components) and uses [Contentlayer](https://www.contentlayer.dev/) to manage markdown content.
