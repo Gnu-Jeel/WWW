@@ -9,7 +9,7 @@ const siteMetadata = {
   siteUrl: 'https://jeeldesai.com',
   siteRepo: 'https://github.com/Gnu-Jeel/www',
   siteLogo: '/static/images/logo.svg',
-  socialBanner: '/static/images/avatar.png',
+  socialBanner: '/static/images/avatar.jpg',
   // mastodon: 'https://mastodon.social/@mastodonuser',
   email: 'contact@jeeldesai.com',
   github: 'https://github.com/itsjeeldesai',

@@ -3,7 +3,7 @@ import { v4 as uuidv4 } from 'uuid'
 
 export default function GalleryPreviewBox() {
   const imgSrc = [
-    '/home/jeel/Desktop/www/public/static/images/avatar.png',
+    '/home/jeel/Desktop/www/public/static/images/avatar.jpg',
     '/static/gallery/art/ai/selfie/126348.jpg',
     '/static/gallery/art/watercolor/12810.jpg',
     '/static/gallery/art/watercolor/cb652.jpg',
